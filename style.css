@@ -1,0 +1,92 @@
+/* GRID 1 */
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* GRID 2 */
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.firts-color {
+    background-color: red;
+}
+
+.second-color {
+    background-color: blue;
+}
+
+.third-color {
+    background-color: yellow;
+}
+
+/* GRID 3 */
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+}
+
+.gridThree .Description {
+    background-color: rgb(88, 139, 151);
+}
+
+.gridThree .Image {
+    background-color: rgb(143, 107, 107);
+}
+
+.gridThree .Image > img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+/* GRID 4 */
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+}
+
+#SecondRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* GRID 5 */
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: rgb(88, 139, 151);
+}
+
+.gridFive .SecondRow {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.gridFive .SecondRow img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+/* GRID 6 */
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: rgb(190, 188, 188);
+}
+
+.gridSix > p {
+    font-family: 'Bebas Neue', fantasy;
+}
